@@ -9,7 +9,7 @@ public class Hello {
         byte b1 = 3;
         short s1 = 10000;
         long l1 = 1000;
-
+//        Small changes
 
 
     }
