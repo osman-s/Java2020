@@ -22,6 +22,8 @@ public class Main {
         System.out.println(numz);
         Calcu("yoko", 23);
 
+        System.out.println(EqualSumChecker.hasEqualSum(1,1,2));
+
 
     }
 
