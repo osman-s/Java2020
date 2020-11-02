@@ -22,8 +22,11 @@ public class Main {
         System.out.println(numz);
         Calcu("yoko", 23);
 
+
     }
+
     public static void Calcu(String name, int numss) {
         System.out.println("Hello " + name + " you are " + numss + " years old.");
     }
+
 }
