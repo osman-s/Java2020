@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         char myChar = 'D';
         char myUnicode = '\u0044';
         char myUnicode2 = '\u00A9';
@@ -15,9 +15,15 @@ public class Main {
         String myString = "This is a string";
         System.out.println(myString + ", Why?");
         boolean isAlien = false;
-        if (isAlien == false) {
+        if (!isAlien) {
             System.out.println("Not an alien");
         }
+        boolean numz = (myChar == 'd') ? true : false;
+        System.out.println(numz)
+        Calcu("yoko", 23);
 
+    }
+    public static void Calcu(String name, int numss) {
+        System.out.println("Hello " + name + " you are " + numss + " years old.");
     }
 }
