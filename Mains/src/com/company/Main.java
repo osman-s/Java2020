@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Not an alien");
         }
         boolean numz = (myChar == 'd') ? true : false;
-        System.out.println(numz)
+        System.out.println(numz);
         Calcu("yoko", 23);
 
     }
