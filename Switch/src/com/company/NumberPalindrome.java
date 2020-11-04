@@ -10,7 +10,7 @@ public class NumberPalindrome {
             if (number / 10 >= 1) {
                 reverse += number % 10;
                 reverse *= 10;
-                number = number / 10;
+                number /= 10;
             } else {
                 reverse += number % 10;
                 break;
