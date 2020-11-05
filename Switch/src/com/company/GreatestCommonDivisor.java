@@ -14,7 +14,6 @@ public class GreatestCommonDivisor {
                     return i;
                 }
             }
-
         }
         return 1;
     }
