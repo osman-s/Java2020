@@ -8,6 +8,7 @@ public class Main {
 //        System.out.println(SumOddRange.sumOdd(100,1000));
 //        System.out.println(NumberPalindrome.isPalindrome(-222));
 //        System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(5));
-        System.out.println(EvenDigitSum.getEvenDigitSum(123456789));
+//        System.out.println(EvenDigitSum.getEvenDigitSum(123456789));
+        System.out.println(SharedDigit.hasSharedDigit(19,99));
     }
 }
