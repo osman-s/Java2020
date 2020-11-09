@@ -12,5 +12,6 @@ public class Main {
 //        System.out.println(SharedDigit.hasSharedDigit(19,99));
 //        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
         System.out.println(FlourPacker.canPack(1,0,6));
+        System.out.println("Small Changes");
     }
 }
