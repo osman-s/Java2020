@@ -26,10 +26,15 @@ class BankAccountTest {
     }
 
     @Test
-    void withdraw() {
+    void withdraw_branch() {
         double balance = account.withdraw(600,true);
-        System.out.println(balance);
         assertEquals(400,balance,0);
+    }
+
+    @Test
+    void withdraw_notBranch() {
+//        double balance = account.withdraw(600,false);
+        assertThrows(IllegalArgumentException.class,() -> account.withdraw(600,false));
     }
 
     @Test
